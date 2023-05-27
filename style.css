@@ -333,7 +333,7 @@ color:aquamarine
 
 
 Menu {
-   
+    animation-duration: 3s;
     animation-name: glissement;
     animation-iteration-count: infinite;
 
