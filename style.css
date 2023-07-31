@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
 body {
         
   background-image:url('image/retraite.jpeg');
@@ -8,21 +10,36 @@ body {
   background-size: cover;
 }
 
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00000073;
+}
+
+.menuRight {
+  margin-right: 40px;
+}
+
+.menuRight a {
+  margin: 10px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.link-menu:hover {
+  text-decoration: underline;
+}
+
+
 img{
   object-fit: cover;
   
   }
-
-
-
-
-header {
-
-background-color: #dcdbdc;
-opacity: 0,5;
-
-}
-
 
 #Menu {
 display: flex;
@@ -30,13 +47,7 @@ flex-direction: row;
 justify-content: space-between;
 margin-left: 1em;
 margin-right: 1em;
-
 }
-
-.menu1 {
-  margin-top: 8em;
-     
-    }
 
 .menu1 a {
 margin-right: 1em;
@@ -47,12 +58,6 @@ color: #551ABB;
 
 
 }
-.menu1 a:hover{
-  color: aquamarine
-
-}
-
-
 
 .menu1 p {
   margin-right: 1em;
@@ -62,19 +67,11 @@ color: #551ABB;
   color: #551ABB;
 }
 
-
-.menu1 P:hover {
-  color: aquamarine
- 
-}
-
-
-
 .title h1
 {
 color: white;
 text-align: center;
-font-size: 80px;
+font-size: 60px;
 font-style: italic;
 text-shadow: black 2px 2px 2px;
 
@@ -355,27 +352,12 @@ Menu {
   }
 
 
-
-
-
 .title1 h2 {
 
     color: white;
      display: flex;
      margin: auto;
      }
-
-
-
-
-header {
-
-    background-color: #dcdbdc;
-    opacity: 0,5;
-      }
-
-
-
 
 .form1 h1 {
 
@@ -561,50 +543,21 @@ float: left;
     img {
       display : block ;
       margin : 30px;
-      width :px ;
     }
 
-    img {
-      width: 250px;
-      height: 200px;
+    Header img {
+      width: 80px;
+      height: 80px;
     
     }
 
-
-
-    .container1 {
-
-      border: white solid;
+    .container {
       background-color: black;
+      border: white solid;
       border-radius: 5px 5px 5PX 5PX ;
       box-shadow: white 1px 1px 1px ;
-      width: 50%;
-      
-          }
-
-
-    .container1 p {
-
       color: white;
-            }
-
-
-
-
-    .container1 h2 {
-
-      min-width: auto;
-      display: flex;
-      margin: auto;
-      margin-left: 1em;
-      display: flex;
-      margin-top: 1em;
-      
-      }
-
-
-
-
+    }
 
     .container2 h1{
 
